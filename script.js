@@ -7,7 +7,7 @@ const wrapper = document.querySelector(".wrapper"),
   wIcon = weatherPart.querySelector("img"),
   arrowBack = wrapper.querySelector("header i");
 
-const apiKey = "34bc1949609769a2b7448bde7cddbc07";
+const apiKey = "openweathermap your api key";
 let api;
 
 inputField.addEventListener("keyup", (e) => {
