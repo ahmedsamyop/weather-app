@@ -1,3 +1,4 @@
+import { weatherApiKey } from "./config/config.js";
 const wrapper = document.querySelector(".wrapper"),
   inputPart = document.querySelector(".input-part"),
   infoTxt = inputPart.querySelector(".info-txt"),
@@ -7,7 +8,7 @@ const wrapper = document.querySelector(".wrapper"),
   wIcon = weatherPart.querySelector("img"),
   arrowBack = wrapper.querySelector("header i");
 
-const apiKey = API_KEY;
+const apiKey = weatherApiKey;
 let api;
 
 inputField.addEventListener("keyup", (e) => {
